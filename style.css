@@ -1,0 +1,32 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px;
+}
+
+#text-box {
+    font-size: 18px;
+}
+
+#typing-area {
+    margin: 24px;
+    padding: 8px;
+    width: 420px;
+    font-size: 14px;
+}
+
+.highlighted {
+    color: mediumblue;
+    font-weight: bold;
+}
+
+.correct-word {
+    color: green;
+    font-weight: bold;
+}
+
+.incorrect-word {
+    color: red;
+    font-weight: bold;
+}
